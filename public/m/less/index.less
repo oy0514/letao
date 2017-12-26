@@ -1,0 +1,105 @@
+@import 'base.less';
+// 导航栏
+#nav {
+    padding: 10px;
+    .mui-row {
+        >div {
+            >a {
+                display: block;
+                >img {
+                    width: 100px;
+                    height: 94px;
+                }
+            }
+        }
+    }
+}
+
+// 广告
+#adv {
+    border-top: 1px solid #ccc;
+    padding-right: 10px;
+    padding-left: 10px;
+    .mui-row {
+        .adv-left {
+            >.mui-row {
+                >div {
+                    >a {
+                        >img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .adv-right {
+            >a {
+                >img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+#brand {
+    padding: 0 10px;
+    >a {
+        >img {
+            width: 100%;
+        }
+    }
+    .mui-row {
+        >div {
+            >a {
+                >img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// 运动生活专区
+#sport {
+    padding: 0 10px;
+    .title{
+        >img{
+            width: 100%;
+        }
+    }
+    .mui-row{
+        >div{
+            padding: 0 5px;
+            .product{
+                background-color: #ffffff;
+                box-shadow: 0px 0px 5px #ccc;
+                text-align: center;
+                padding-bottom: 10px;
+                margin-top: 10px;
+                .product-img{
+                    >img{
+                        width: 100%;
+                    }   
+                }
+                .product-name{
+                    font-size: 14px;
+                    height: 28px;
+                    line-height: 14px;
+                }
+                .product-price{
+                    font-size: 12px;
+                    >span{
+                        color: #f40;
+                    }
+                    >del{
+                        color:#ccc;
+                    }
+                }
+                .product-buy{
+
+                }
+            }
+        }
+    }
+}
